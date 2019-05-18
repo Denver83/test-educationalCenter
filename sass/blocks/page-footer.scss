@@ -1,0 +1,61 @@
+.pafe-footer{
+
+}
+.socials{
+	padding-top: 50px;
+	width: 940px;
+	margin: 0 auto;
+	min-height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+.social-link:hover{
+	opacity: 0.7;
+}
+.social-link{
+	width: 100px;
+	height: 100px;
+	display: block;
+	background: url(../img/social-sprite.jpg) no-repeat 2% 50%;
+}
+.social-link--vk{
+	background: url(../img/social-sprite.jpg) no-repeat 15% 50%;
+}
+.social-link--ok{
+	background: url(../img/social-sprite.jpg) no-repeat 29% 50%;
+}
+.social-link--twit{
+	background: url(../img/social-sprite.jpg) no-repeat 43% 50%;
+}
+.social-link--inst{
+	background: url(../img/social-sprite.jpg) no-repeat 56% 50%;
+}
+.social-link--t{
+	background: url(../img/social-sprite.jpg) no-repeat 71% 50%;
+}
+.social-link--p{
+	background: url(../img/social-sprite.jpg) no-repeat 84% 50%;
+}
+.social-link--8{
+	background: url(../img/social-sprite.jpg) no-repeat 98% 50%;
+}
+.page-footer__nav{
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+	min-height: 475px;
+	text-align: center;
+	background-color: #959595;
+}
+.nav__item{
+	margin: 20px auto;
+	font-size: 33px;
+	line-height: 40px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.copyright{
+	margin: 0;
+	color: #fff;
+	font-size: 22px;
+}
